@@ -1,0 +1,21 @@
+JFDML JFormDesigner: "7.0.3.0.337" Java: "11.0.9.1" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.autoExternalize": true
+	"i18n.bundlePackage": "com.melo.notes.view"
+	"i18n.bundleName": "note"
+	"i18n.keyPrefix": "ok"
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {space :0:398:x}"
+			"$verticalGroup": "par l {space :0:268:x}"
+		} ) {
+			name: "this"
+			"title": new FormMessage( null, "ok.this.title" )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 400, 300 )
+		} )
+	}
+}
